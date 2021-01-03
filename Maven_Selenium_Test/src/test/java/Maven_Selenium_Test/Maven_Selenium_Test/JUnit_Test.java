@@ -22,5 +22,7 @@ public class JUnit_Test {
         driver.findElement(By.id("login-password")) .sendKeys("password"); 
         //driver.findElement(By.xpath("//button[@type='submit'][contains(.,'Login')]")).click();     
         driver.findElement(By.xpath("//button[contains(@type,'submit')]")).click();
+        
+        // Jenkins Test
 	}
 }
